@@ -15,7 +15,7 @@ $GLOBALS['TL_DCA']['tl_form_field']['fields']['minTime'] = array
 	'inputType'               => 'text',
 	'eval'                    => array('rgxp' => 'time', 'tl_class' => 'clr w50'),
 	'explanation'             => 'minTime',
-	'sql'                     => "smallint(6) DEFAULT NULL"
+	'sql'                     => "mediumint(9) DEFAULT NULL"
 );
 
 $GLOBALS['TL_DCA']['tl_form_field']['fields']['maxTime'] = array
@@ -25,7 +25,7 @@ $GLOBALS['TL_DCA']['tl_form_field']['fields']['maxTime'] = array
 	'inputType'               => 'text',
 	'eval'                    => array('rgxp' => 'time', 'tl_class'=>'clr w50'),
 	'explanation'             => 'maxTime',
-	'sql'                     => "smallint(6) DEFAULT NULL"
+	'sql'                     => "mediumint(9) DEFAULT NULL"
 );
 
 $GLOBALS['TL_DCA']['tl_form_field']['fields']['timeStep'] = array

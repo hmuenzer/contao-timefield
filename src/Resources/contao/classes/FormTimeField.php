@@ -47,8 +47,8 @@ class FormTimeField extends FormTextField
       return parent::parse($arrAttributes);
     }
 
-    $GLOBALS['TL_CSS'][] = 'system/modules/timefield/assets/jquery.timepicker.min.css';
-    $GLOBALS['TL_JAVASCRIPT'][] = 'system/modules/timefield/assets/jquery.timepicker.min.js';
+    $GLOBALS['TL_CSS'][] = 'bundles/hmuenzertimefield/assets/jquery.timepicker.min.css';
+    $GLOBALS['TL_JAVASCRIPT'][] = 'bundles/hmuenzertimefield/assets/jquery.timepicker.min.js';
 
     // Initialize the default config
     $arrConfig = array(

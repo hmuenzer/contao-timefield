@@ -1,6 +1,5 @@
 {
     "name":"hmuenzer/timefield",
-    "version":"1.0.0-alpha",
     "description":"Frontend text field with timepicker for Contao Open Source CMS (uses jQuery)",
     "keywords":["contao", "Time Field", "Timepicker", "jQuery"],
     "type":"contao-bundle",
@@ -22,7 +21,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Hmuenzer\\TimeField\\": "src/"
+            "Hmuenzer\\TimeFieldBundle\\": "src/"
         },
         "classmap": [
             "src/Resources/contao/"
@@ -30,12 +29,13 @@
         "exclude-from-classmap": [
             "src/Resources/contao/config/",
             "src/Resources/contao/dca/",
-            "src/Resources/contao/languages/"
+            "src/Resources/contao/languages/",
+            "src/Resources/contao/templates/"
         ]
     },
     "extra":{
         "contao": {
-            "contao-manager-plugin": "Hmuenzer\\TimeField\\ContaoManager\\Plugin"
+            "contao-manager-plugin": "Hmuenzer\\TimeFieldBundle\\ContaoManager\\Plugin"
         }
     }
 }
