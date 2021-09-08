@@ -1,10 +1,10 @@
 {
-    "name":"hmuenzer/timefield",
-    "description":"Frontend text field with timepicker for Contao Open Source CMS (uses jQuery)",
+    "name": "hmuenzer/contao-timefield",
+    "description": "Frontend text field with timepicker for Contao Open Source CMS &#40;uses jQuery&#41;",
     "keywords":["contao", "Time Field", "Timepicker", "jQuery"],
-    "type":"contao-bundle",
+    "type": "contao-bundle",
     "license":"LGPL-3.0+",
-    "authors":[
+    "authors": [
         {
             "name": "Holger Münzer",
             "homepage": "https://github.com/hmuenzer",
@@ -12,30 +12,28 @@
             "role": "Developer"
         }
     ],
-    "require":{
+    "require": {
         "php": "^7.2 || ^8.0",
-        "contao/core-bundle": "^4.9",
-        "symfony/config": "^4.4 || ^5.1",
-        "symfony/dependency-injection": "^4.4 || ^5.1",
-        "symfony/http-kernel": "^4.4 || ^5.1"
+        "contao/core-bundle": "^4.9"
+    },
+    "require-dev": {
+        "contao/manager-plugin": "^2.3"
     },
     "autoload": {
         "psr-4": {
             "Hmuenzer\\TimeFieldBundle\\": "src/"
         },
         "classmap": [
-            "src/Resources/contao/"
+            "src/Resources/contao"
         ],
         "exclude-from-classmap": [
-            "src/Resources/contao/config/",
-            "src/Resources/contao/dca/",
-            "src/Resources/contao/languages/",
-            "src/Resources/contao/templates/"
+            "src/Resources/contao/config",
+            "src/Resources/contao/dca",
+            "src/Resources/contao/languages",
+            "src/Resources/contao/templates"
         ]
     },
-    "extra":{
-        "contao": {
-            "contao-manager-plugin": "Hmuenzer\\TimeFieldBundle\\ContaoManager\\Plugin"
-        }
+    "extra": {
+        "contao-manager-plugin": "Hmuenzer\\TimeFieldBundle\\ContaoManager\\Plugin"
     }
 }

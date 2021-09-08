@@ -1,4 +1,6 @@
-# Contao Extension: time field
+[![Latest Version on Packagist](http://img.shields.io/packagist/v/hofff/contao-calendarfield.svg?style=flat)](https://packagist.org/packages/hofff/contao-calendarfield)
+
+# Contao Extension: contao-timefield
 
 Frontend text field with timepicker for Contao Open Source CMS.
 
@@ -11,6 +13,10 @@ Frontend text field with timepicker for Contao Open Source CMS.
 ### Timepicker version
 
 Using jquery-timepicker v1.13.18 (downloaded from https://github.com/jonthornton/jquery-timepicker).
+
+## Installation
+
+$ composer require hmuenzer/contao-timefield
 
 ## Compatibility
 
