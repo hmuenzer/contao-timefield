@@ -1,5 +1,3 @@
-[![Latest Version on Packagist](http://img.shields.io/packagist/v/hofff/contao-calendarfield.svg?style=flat)](https://packagist.org/packages/hofff/contao-calendarfield)
-
 # Contao Extension: contao-timefield
 
 Frontend text field with timepicker for Contao Open Source CMS.
